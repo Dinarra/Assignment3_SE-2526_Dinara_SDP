@@ -1,0 +1,8 @@
+﻿T1 PASS | Circle + VectorRenderer | result=VECTOR Circle radius/side=2
+T2 PASS | Circle + RasterRenderer | result=RASTER Circle radius/side=2
+T3 PASS | Square + VectorRenderer | result=VECTOR Square radius/side=3
+T4 PASS | Square + RasterRenderer | result=RASTER Square radius/side=3
+T5 PASS sameObject=true | stateUnchanged=true | before=<VECTOR Circle radius/side=2> | after=<RASTER Circle radius/side=2>
+T6 PASS | Circle + AsciiRenderer | result=ASCII Circle size=2
+T7 PASS | Square + AsciiRenderer | result=ASCII Square size=3
+SUMMARY: 7/7 PASS
